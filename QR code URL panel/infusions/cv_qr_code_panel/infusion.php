@@ -21,10 +21,10 @@ if (!defined("IN_FUSION")) {
 	die("Access Denied");
 }
 
-if (file_exists(INFUSIONS . "cv_qr_code_panel/locale/".$settings['locale'].".php")) {
-	include INFUSIONS . "cv_qr_code_panel/locale/".$settings['locale'].".php";
+if (file_exists(INFUSIONS."cv_qr_code_panel/locale/".$settings['locale'].".php")) {
+	include INFUSIONS."cv_qr_code_panel/locale/".$settings['locale'].".php";
 } else {
-	include INFUSIONS . "cv_qr_code_panel/locale/English.php";
+	include INFUSIONS."cv_qr_code_panel/locale/English.php";
 }
 
 $inf_title = $locale['cvqr_title'];

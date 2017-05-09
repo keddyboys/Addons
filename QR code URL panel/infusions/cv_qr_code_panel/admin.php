@@ -22,8 +22,8 @@ pageAccess('CVQR');
 require_once THEMES."templates/admin_header.php";
 require_once INCLUDES."infusions_include.php";
 
-if (file_exists(INFUSIONS . "cv_qr_code_panel/locale/".$settings['locale'].".php")) {
-	include INFUSIONS . "cv_qr_code_panel/locale/".$settings['locale'].".php";
+if (file_exists(INFUSIONS."cv_qr_code_panel/locale/".$settings['locale'].".php")) {
+	include INFUSIONS."cv_qr_code_panel/locale/".$settings['locale'].".php";
 } else {
 	INFUSIONS . "cv_qr_code_panel/locale/English.php";
 }

@@ -19,7 +19,7 @@
 
 require_once "../../maincore.php";
 require_once __DIR__ . "/includes/qrlib.php";
-require_once INCLUDES . "infusions_include.php";
+require_once INCLUDES."infusions_include.php";
 
 $target = isset($_GET['target']) ? base64_decode($_GET['target']) : $settings['siteurl'];
 
